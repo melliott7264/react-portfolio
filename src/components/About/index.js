@@ -1,10 +1,38 @@
 import React from 'react';
+import Footer from '../Footer';
 
 function About() {
   return (
-    <section>
-      <h1 id="about">About Me</h1>
-    </section>
+    <div>
+      <section id="about" className="container">
+        <div className="row">
+          <div className="col">
+            <img
+              className="bio-pic p-4"
+              src="/assets/images/HeadshotThumb-1.jpg"
+              alt="headshot for Mark Elliott"
+            />
+          </div>
+          <p className="col mt-2 p-2">
+            Mark Elliott is a full stack web developer with extensive experience
+            in Information Technology working with clients at all levels of the
+            organization to ascertain client needs and create appropriate
+            technical solutions. Functioned as a webmaster in support of various
+            personal and self-employment business endeavors for over 10 years
+            mostly on a WordPress platform using HTML, CSS, Javascript, PHP, and
+            MySQL to create and customize websites. Currently enrolled in a
+            Coding Bootcamp at the University of Richmond to enhance skills as a
+            fullstack developer including the recent successful deployment of a
+            collaborative front-end project. Reliable and organized with
+            excellent verbal and written communication skills. A self-starter
+            with a track record of being a team leader, solving complex
+            problems, and doing what is necessary to get the job done. A
+            persistent and patient problem solver. Always learning.
+          </p>
+        </div>
+      </section>
+      <Footer />
+    </div>
   );
 }
 
