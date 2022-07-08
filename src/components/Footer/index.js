@@ -15,7 +15,7 @@ function Footer() {
             className="col text-center pt-2"
             href="https://stackoverflow.com/users/17751312/mark-elliott"
           >
-            stackoverflow
+            Stack Overflow
           </a>
           <a
             className="col text-center pt-2"

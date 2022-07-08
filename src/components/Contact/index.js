@@ -23,12 +23,12 @@ function Contact() {
       const isValid = validateEmail(e.target.value);
       console.log(isValid);
       if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+        setErrorMessage('Please enter a valid e-mail address.');
       }
     } else {
       // Checking to make sure the name or character is not null
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required`);
+        setErrorMessage(`Please enter your ${e.target.name}.`);
       } else {
         setErrorMessage('');
       }
