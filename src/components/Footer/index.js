@@ -13,6 +13,12 @@ function Footer() {
           </a>
           <a
             className="col text-center pt-2"
+            href="https://stackoverflow.com/users/17751312/mark-elliott"
+          >
+            stackoverflow
+          </a>
+          <a
+            className="col text-center pt-2"
             href="https://www.linkedin.com/in/markelliottva/"
           >
             LinkedIn
