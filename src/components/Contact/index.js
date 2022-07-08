@@ -102,6 +102,22 @@ function Contact() {
             Submit
           </button>
         </form>
+        <div className="container">
+          <div className="row align-items-center contact-info">
+            <span className="col text-center">
+              <strong>
+                <a href="mailto:markelliottva@gmail.com">
+                  markelliottva@gmail.com
+                </a>
+              </strong>
+            </span>
+            <span className="col text-center">
+              <strong>
+                <a href="tel:804-746-8288">(804)746-8288</a>
+              </strong>
+            </span>
+          </div>
+        </div>
       </section>
       <Footer />
     </div>
