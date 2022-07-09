@@ -1,0 +1,217 @@
+/* Stylesheet for Mark Elliott's professional portfolio in addtion to Bootstrap */
+
+/* Define global colors */
+
+:root {
+  --default-fontcolor: black;
+  --default-bgcolor: #ffffffde;
+  --primary-bgcolor: #4444f7;
+  --primary-fontcolor: #ffffff;
+  --primary-title-bgcolor: #f6db28;
+  --work-bgcolor: #d3d2cbb1;
+}
+
+/* Reset global defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global styles */
+
+/* Initial styling for iPhone 12 Pro at 390px screen width */
+
+h1 {
+  font-size: 2.5rem;
+  padding: 0 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px;
+}
+
+p {
+  margin: 10px 10px 0 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header/Nav/Footer Styling */
+
+header h1,
+.nav-item a {
+  color: var(--primary-fontcolor);
+}
+
+.nav-item a:hover {
+  color: var(--primary-title-bgcolor);
+}
+
+footer {
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-fontcolor);
+}
+
+footer a,
+footer a:hover {
+  font-size: 1.25rem;
+  color: var(--primary-fontcolor);
+}
+
+/* header Styling - Background image of Moon and Clouds by Mark Elliott */
+header {
+  width: 100%;
+  background-image: url(/assets/images/Header_Background-1.jpg);
+  background-position: center top;
+}
+
+/* Style About Section */
+
+/* Headshot styling */
+.bio-pic {
+  width: 360px;
+}
+
+/* Style Work Section */
+
+.project-title {
+  background-color: var(--primary-title-bgcolor);
+}
+
+/* Added active state for feedback on mobile devices */
+.project a:hover,
+.project a:active {
+  opacity: 0.6;
+}
+
+.project,
+.project-title {
+  display: block;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.project img {
+  width: 100%;
+  padding: 20px 10px 0px 10px;
+}
+
+.project-title {
+  color: var(--default-fontcolor);
+  text-decoration: none;
+  background-color: var(--primary-title-bgcolor);
+  padding: 10px 15px;
+}
+
+.github {
+  display: block;
+  text-align: center;
+}
+
+/* Resume styles */
+
+/* li only applies to list of qualifications on resume */
+li {
+  margin: 0 20px 0 30px;
+}
+
+.education p,
+.experience p,
+.certifications p {
+  margin: 0 20px 20px 10px;
+}
+
+/* Contact Form Styling */
+
+textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  font-weight: 700;
+}
+.submit-btn:hover {
+  background-color: var(--primary-title-bgcolor);
+}
+
+/* Styling for screens 550px to 799x  */
+
+@media screen and (min-width: 550px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4,
+  .nav-item {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .github {
+    font-size: 1.25rem;
+  }
+}
+
+/* Styling for screens over 800px - limited by header graphic*/
+
+@media screen and (min-width: 800px) {
+  body,
+  .project,
+  .project-title {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+  h4,
+  .nav-item {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+  .github {
+    font-size: 1.5rem;
+  }
+}
