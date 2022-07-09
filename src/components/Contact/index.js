@@ -118,6 +118,12 @@ function Contact() {
             </span>
           </div>
         </div>
+        <div>
+          <p className="text-center">
+            Please note that this form is not fully implemented at this time.
+            Please use the e-mail address and phone number above to contact me.
+          </p>
+        </div>
       </section>
       <Footer />
     </div>
