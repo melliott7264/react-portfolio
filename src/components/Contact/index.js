@@ -39,7 +39,7 @@ function Contact() {
     }
   }
 
-  // a place holder function to handle the submit
+  // a place holder function to handle the submit - will add code to send to gmail API later on
   function handleSubmit(e) {
     e.prevent.Default();
     console.log(formState);

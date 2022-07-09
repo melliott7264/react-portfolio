@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from '../Footer';
 
+// This component just renders the JSX for the resume - taken directly from HTML/CSS version of portfolio
+// with the addition of the link to the .pdf and the Footer component.
 function Resume() {
   return (
     <div>

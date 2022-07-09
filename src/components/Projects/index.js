@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer';
 
+// JSX just to write out each project in the projectArray
 function Projects({ projectArray }) {
   return (
     <div>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+// This component creates the header and navigation bar that is displayed at the top of each page.
+// Through the passed method handlePageChange, it activates all the other pages when a page option is clicked.
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <header>

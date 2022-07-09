@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from '../Footer';
 
+// This component was taken just about directly from the HTML/CSS only version of the portfolio with the addition
+// of the Footer component at the bottom.
 function About() {
   return (
     <div>

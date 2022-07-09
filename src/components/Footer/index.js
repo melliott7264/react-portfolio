@@ -1,5 +1,6 @@
 import React from 'react';
 
+// This component is called at the bottom of each(About, Projects, Contact, and Resume) other page component to create the page footer.
 function Footer() {
   return (
     <footer>

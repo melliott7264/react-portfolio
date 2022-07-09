@@ -1,6 +1,8 @@
 import React from 'react';
 import Projects from '../Projects';
 
+// The projectArray is the main part of this component.  It is passed to the Projects component as a props.
+// Can simply add more projects by adding to the array.
 const projectArray = [
   {
     title: 'Boot Camp Project 1 - Life Explorer/Trip Planner 1.0',

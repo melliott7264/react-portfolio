@@ -37,11 +37,11 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 h2,
@@ -108,7 +108,7 @@ header {
 .project-title {
   display: block;
   margin: 0 auto;
-  width: 100vw;
+  width: 90vw;
 }
 
 .project img {
@@ -157,12 +157,37 @@ textarea {
 /* Styling for screens 550px to 799x  */
 
 @media screen and (min-width: 550px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4,
+  .nav-item {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .github {
+    font-size: 1.25rem;
+  }
 }
 
-/* Styling for screens over 800px */
+/* Styling for screens over 800px - limited by header graphic*/
 
 @media screen and (min-width: 800px) {
-  body {
+  body,
+  .project,
+  .project-title {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -178,20 +203,15 @@ textarea {
   h3 {
     font-size: 2rem;
   }
-
-  .bio {
-    justify-content: start;
+  h4,
+  .nav-item {
+    font-size: 1.5rem;
   }
 
-  .project,
-  .project-title {
-    width: 75vw;
-    max-width: 800px;
+  h5 {
+    font-size: 1.25rem;
   }
-
-  nav a,
-  .contact-info a {
-    font-size: 1.3em;
-    padding: 10px 20px;
+  .github {
+    font-size: 1.5rem;
   }
 }
