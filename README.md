@@ -13,7 +13,7 @@ This is the professional portfolio for Mark Elliott refactored in React. It is t
 
 ## Installation
 
-This is a Single Page Application deployed on GitHub pages. There is no user installation required.
+This is a Single Page Application deployed on GitHub pages at https://melliott7264.github.io/react-portfolio/. There is no user installation required.
 
 ## Usage
 

@@ -6,7 +6,7 @@ import Footer from '../Footer';
 function Resume() {
   return (
     <div>
-      <a href="/assets/downloads/resume.pdf">Download PDF of Resume</a>
+      <a href="assets/downloads/resume.pdf">Download PDF of Resume</a>
       <section className="technical">
         <h3 class="align-center">Technical Skills</h3>
         <p>

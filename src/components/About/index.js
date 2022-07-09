@@ -11,7 +11,7 @@ function About() {
           <div className="col">
             <img
               className="bio-pic p-4"
-              src="/assets/images/HeadshotThumb-1.jpg"
+              src="assets/images/HeadshotThumb-1.jpg"
               alt="headshot for Mark Elliott"
             />
           </div>
