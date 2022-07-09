@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div>
       <a href="/assets/downloads/resume.pdf">Download PDF of Resume</a>
-      <section class="technical">
+      <section className="technical">
         <h3 class="align-center">Technical Skills</h3>
         <p>
           <b>Lanquages:</b> HTML5 CSS3 JavaScript Jquery Jquery UI Bootstrap
@@ -23,7 +23,7 @@ function Resume() {
         </p>
       </section>
 
-      <section class="experience">
+      <section className="experience">
         <h3 class="align-center">Experience</h3>
         <h4>Webmaster 2019-Present</h4>
         <h5>
@@ -86,8 +86,8 @@ function Resume() {
         </ul>
       </section>
 
-      <section class="education">
-        <h3 class="align-center">Education</h3>
+      <section className="education">
+        <h3 className="align-center">Education</h3>
         <p>
           <strong>Boot Camp Certificate:</strong> University of Richmond,
           Richmond, Virginia (currently enrolled)
