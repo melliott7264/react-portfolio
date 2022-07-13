@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Footer from '../Footer';
+import emailjs from '@emailjs/browser';
 
 // Contact form based on online lessons from Module 20 UofR Coding Boot Camp
 
@@ -42,7 +43,23 @@ function Contact() {
   // a place holder function to handle the submit - will add code to send to gmail API later on
   function handleSubmit(e) {
     e.prevent.Default();
+    console.log('Contact Form Information has been Submitted!');
     console.log(formState);
+    emailjs
+      .send(
+        'service_3q64na3',
+        'template_a5u2ohd',
+        formState,
+        'XizeVVxmubxQXC59c'
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (err) => {
+          console.log('FAILED...', err);
+        }
+      );
   }
 
   // The JSX (HTML) for the contact form

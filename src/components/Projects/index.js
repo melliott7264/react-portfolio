@@ -11,7 +11,7 @@ function Projects({ projectArray }) {
             <a href={project.deployedUrl}>
               <img src={project.imgUrl} alt={project.imgAlt} />
             </a>
-            <div className="project-title">
+            <div key={project.key} className="project-title">
               <h4>{project.title}</h4>
               <h5>{project.description}</h5>
               <em>
