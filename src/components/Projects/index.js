@@ -7,7 +7,7 @@ function Projects({ projectArray }) {
     <div>
       <section>
         {projectArray.map((project) => (
-          <article className="project">
+          <article key={project.key} className="project">
             <a href={project.deployedUrl}>
               <img src={project.imgUrl} alt={project.imgAlt} />
             </a>

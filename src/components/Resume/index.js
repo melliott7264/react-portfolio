@@ -8,7 +8,7 @@ function Resume() {
     <div>
       <a href="assets/downloads/resume.pdf">Download PDF of Resume</a>
       <section className="technical">
-        <h3 class="align-center">Technical Skills</h3>
+        <h3 className="align-center">Technical Skills</h3>
         <p>
           <b>Lanquages:</b> HTML5 CSS3 JavaScript Jquery Jquery UI Bootstrap
           Bulma Moment.js Day.js Node.js Express Express-Sessions SQL Sequelize
@@ -24,7 +24,7 @@ function Resume() {
       </section>
 
       <section className="experience">
-        <h3 class="align-center">Experience</h3>
+        <h3 className="align-center">Experience</h3>
         <h4>Webmaster 2019-Present</h4>
         <h5>
           Central Virginia Intergroup of Overeaters Anonymous, Richmond, VA

@@ -150,9 +150,6 @@ textarea {
 .submit-btn {
   font-weight: 700;
 }
-.submit-btn:hover {
-  background-color: var(--primary-title-bgcolor);
-}
 
 /* Styling for screens 550px to 799x  */
 
