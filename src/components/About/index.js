@@ -28,7 +28,7 @@ function About() {
             collaborative front-end project, and a collaborative full-stack
             application. Reliable and organized with excellent verbal and
             written communication skills. A self-starter with a track record of
-            being a team leader, solving complexproblems, and doing what is
+            being a team leader, solving complex problems, and doing what is
             necessary to get the job done. A persistent and patient problem
             solver. Always learning.
           </p>
