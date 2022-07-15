@@ -25,12 +25,12 @@ function About() {
             MySQL to create and customize websites. Finishing up a 24 week
             Coding Bootcamp at the University of Richmond to enhance skills as a
             fullstack developer including the successful deployment of a
-            collaborative front-end project, and a full-stack application.
-            Reliable and organized with excellent verbal and written
-            communication skills. A self-starter with a track record of being a
-            team leader, solving complexproblems, and doing what is necessary to
-            get the job done. A persistent and patient problem solver. Always
-            learning.
+            collaborative front-end project, and a collaborative full-stack
+            application. Reliable and organized with excellent verbal and
+            written communication skills. A self-starter with a track record of
+            being a team leader, solving complexproblems, and doing what is
+            necessary to get the job done. A persistent and patient problem
+            solver. Always learning.
           </p>
         </div>
       </section>
