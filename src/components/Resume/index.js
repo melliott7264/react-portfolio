@@ -12,7 +12,7 @@ function Resume() {
         <p>
           <b>Lanquages:</b> HTML5 CSS3 JavaScript Jquery Jquery UI Bootstrap
           Bulma Moment.js Day.js Node.js Express Express-Sessions SQL Sequelize
-          Handlebars Mongoose React PHP Markdown
+          Handlebars Mongoose React GraphQL PHP Markdown
         </p>
         <p>
           <b>Applications:</b> WordPress, Elementor, Yoast, Google Analytics,
@@ -93,8 +93,8 @@ function Resume() {
           Richmond, Virginia (currently enrolled)
           <br />A 24-week intensive program focused on gaining technical
           programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap,
-          Firebase, Node Js, MySQL, MongoDB, Express, Handlebars.js, and
-          ReactJS.
+          Firebase, Node Js, MySQL, MongoDB, Express, Handlebars.js, and ReactJS
+          with GraphQL.
         </p>
         <p>
           <strong>B.S. Information Systems:</strong> Virginia Commonwealth
