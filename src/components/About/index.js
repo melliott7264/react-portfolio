@@ -25,13 +25,13 @@ function About() {
             MySQL to create and customize websites. Finishing up a 24 week
             Coding Bootcamp at the University of Richmond to enhance skills as a
             fullstack developer including the successful deployment of a
-            collaborative front-end project, a collaborative full-stack
-            application, and a collaborative MERN application. Reliable and
-            organized with excellent verbal and written communication skills. A
-            self-starter with a track record of being a team leader, solving
-            complex problems, and doing what is necessary to get the job done. A
-            persistent and patient problem solver willing to take calculated
-            risks to develop new skills. Always learning.
+            collaborative front-end project, and a collaborative full-stack
+            application. Our final MERN project is due in three weeks. Reliable
+            and organized with excellent verbal and written communication
+            skills. A self-starter with a track record of being a team leader,
+            solving complex problems, and doing what is necessary to get the job
+            done. A persistent and patient problem solver willing to take
+            calculated risks to develop new skills. Always learning.
           </p>
         </div>
       </section>
