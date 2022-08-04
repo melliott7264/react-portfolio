@@ -19,13 +19,23 @@ const projectArray = [
     title: 'Boot Camp Project 2 - Career Commander 1.0',
     description:
       'A collaborative full-stack project producing job search organizer using multiple lanquages and frameworks including HTML5, CSS, Bootstrap, JavaScript, Jquery, Jquery UI, Day.js, Node.js, Express, Express-Sessions, Express-Handlebars, Sequelize, and MySQL. This project was produced by a three person team over two weeks including Harrison Daniel, Mark Elliott, and Daniel Liszka. Mark Elliott mainly produced the models and database structure, server setup, and API routes.',
-    deployedUrl: 'https://career-commander.herokuapp.com/dashboard/',
+    deployedUrl: 'https://career-commander.herokuapp.com/',
     imgUrl: 'assets/images/CareerCommanderThumb-1.jpg',
     imgAlt: 'screenshot of Career Commander 1.0',
     gitHubUrl: 'https://github.com/DanielLiszka/career-commander',
   },
   {
     key: 2,
+    title: 'Boot Camp Project 3 - Money Matters 1.0',
+    description:
+      'A collaborative full-stack MERN project producing an economics and finance focused news discussion site. Produced by a four person team over two weeks including Darrin Robinson, Mark Elliott, Daniel Liszka, and Tyler Shifflett. Mark Elliott setup the client/server template, produced the Mongoose models and GraphQL API with some React work with the comments.',
+    deployedUrl: 'https://still-sea-70396.herokuapp.com/',
+    imgUrl: 'assets/images/MoneyMattersThumb-1.jpg',
+    imgAlt: 'screenshot of Career Commander 1.0',
+    gitHubUrl: 'https://github.com/melliott7264/moneymatters2',
+  },
+  {
+    key: 3,
     title: 'Password Generator 1.0',
     description:
       'A random password generator written in JavaScript by Mark Elliott.',
@@ -35,7 +45,7 @@ const projectArray = [
     gitHubUrl: 'https://github.com/melliott7264/password-generator',
   },
   {
-    key: 3,
+    key: 4,
     title: 'Code Quiz 1.0',
     description:
       'A timed JavaScript code quiz written using JavaScript and Web APIs by Mark Elliott.',
@@ -45,7 +55,7 @@ const projectArray = [
     gitHubUrl: 'https://github.com/melliott7264/code-quiz',
   },
   {
-    key: 4,
+    key: 5,
     title: 'Work Day Scheduler 1.0',
     description:
       'This application is a hourly work day planner written using JavaScript, JQuery, JQuery UI, and Moment.js by Mark Elliott.',
@@ -55,7 +65,7 @@ const projectArray = [
     gitHubUrl: 'https://github.com/melliott7264/work-day-scheduler',
   },
   {
-    key: 5,
+    key: 6,
     title: "Mark's Tech Blog 1.0",
     description:
       'A simple WordPress style full stack blog built by Mark Elliott using HTML, CSS, Bootstrap, JavaScript, Handlebars, MySQL/Sequelize, Express-Sessions, Express, Bcrypt, dotenv, Node.js and hosted on Heroku.',
