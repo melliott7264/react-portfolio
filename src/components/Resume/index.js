@@ -25,7 +25,7 @@ function Resume() {
 
       <section className="experience">
         <h3 className="align-center">Experience</h3>
-        <h4>Webmaster 2019-Present</h4>
+        <h4>Web Developer 2019-Present</h4>
         <h5>
           Central Virginia Intergroup of Overeaters Anonymous, Richmond, VA
         </h5>
@@ -47,7 +47,7 @@ function Resume() {
           </li>
           <li>Support internal e-mail communication using MailChimp</li>
         </ul>
-        <h4>Proprietor/Webmaster 2010-2022</h4>
+        <h4>Proprietor/Web Developer 2010-2022</h4>
         <h5>Mark Elliott Crafts (Self-employed), Mechanicsville, VA</h5>
         <p>
           Created traditional crafts serving those collectors, reenactors, and
@@ -90,7 +90,7 @@ function Resume() {
         <h3 className="align-center">Education</h3>
         <p>
           <strong>Boot Camp Certificate:</strong> University of Richmond,
-          Richmond, Virginia (currently enrolled)
+          Richmond, Virginia
           <br />A 24-week intensive program focused on gaining technical
           programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap,
           Firebase, Node Js, MySQL, MongoDB, Express, Handlebars.js, and ReactJS

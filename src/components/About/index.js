@@ -22,16 +22,16 @@ function About() {
             technical solutions. Functioned as a webmaster in support of various
             personal and self-employment business endeavors for over 10 years
             mostly on a WordPress platform using HTML, CSS, Javascript, PHP, and
-            MySQL to create and customize websites. Finishing up a 24 week
-            Coding Bootcamp at the University of Richmond to enhance skills as a
+            MySQL to create and customize websites. Completed a 24 week Coding
+            Bootcamp at the University of Richmond to enhance skills as a
             fullstack developer including the successful deployment of a
-            collaborative front-end project, and a collaborative full-stack
-            application. Our final MERN project is due in three weeks. Reliable
-            and organized with excellent verbal and written communication
-            skills. A self-starter with a track record of being a team leader,
-            solving complex problems, and doing what is necessary to get the job
-            done. A persistent and patient problem solver willing to take
-            calculated risks to develop new skills. Always learning.
+            collaborative full stack MERN project creating an economics and
+            finance news discussion site. Reliable and organized with excellent
+            verbal and written communication skills. A self-starter with a track
+            record of being a team leader, solving complex problems, and doing
+            what is necessary to get the job done. A persistent and patient
+            problem solver willing to take calculated risks to develop new
+            skills. Always learning.
           </p>
         </div>
       </section>
