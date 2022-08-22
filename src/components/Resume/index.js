@@ -11,8 +11,8 @@ function Resume() {
         <h3 className="align-center">Technical Skills</h3>
         <p>
           <b>Lanquages:</b> HTML5 CSS3 JavaScript Jquery Jquery UI Bootstrap
-          Bulma Moment.js Day.js Node.js Express Express-Sessions SQL Sequelize
-          Handlebars Mongoose React GraphQL PHP Markdown
+          Bulma Moment.js Day.js Node.js Bcrypt Express Express-Sessions SQL
+          Sequelize Handlebars Mongoose React JSONWebToken GraphQL PHP Markdown
         </p>
         <p>
           <b>Applications:</b> WordPress, Elementor, Yoast, Google Analytics,
@@ -46,6 +46,10 @@ function Resume() {
             </a>
           </li>
           <li>Support internal e-mail communication using MailChimp</li>
+          <li>
+            Used WordPress, Google Analytics, HTML, and CSS to create and
+            maintain this site.
+          </li>
         </ul>
         <h4>Proprietor/Web Developer 2010-2022</h4>
         <h5>Mark Elliott Crafts (Self-employed), Mechanicsville, VA</h5>
