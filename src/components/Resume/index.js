@@ -96,9 +96,8 @@ function Resume() {
           <strong>Boot Camp Certificate:</strong> University of Richmond,
           Richmond, Virginia
           <br />A 24-week intensive program focused on gaining technical
-          programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap,
-          Firebase, Node Js, MySQL, MongoDB, Express, Handlebars.js, and ReactJS
-          with GraphQL.
+          programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node
+          Js, MySQL, MongoDB, Express, Handlebars.js, and ReactJS with GraphQL.
         </p>
         <p>
           <strong>B.S. Information Systems:</strong> Virginia Commonwealth
