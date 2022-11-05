@@ -16,15 +16,24 @@ function Resume() {
         </p>
         <p>
           <b>Applications:</b> WordPress, Elementor, Yoast, Google Analytics,
-          MySQL, MySQL Workbench, PhpMyAdmin, MongoDB, Apache, Local by
-          Flywheel, AWS Lightsail, AWS S3, cPanel, Filezilla, VS Code, Git,
-          GitHub, MacOS, Linux, Windows, MS Word, MS Excel, Adobe Lightroom,
-          Adobe PhotoShop, Google Apps
+          Google Tag Manager, MySQL, MySQL Workbench, PhpMyAdmin, MongoDB,
+          Apache, Local by Flywheel, AWS Lightsail, AWS S3, cPanel, Filezilla,
+          VS Code, Git, GitHub, MacOS, Linux, Windows, MS Word, MS Excel, Adobe
+          Lightroom, Adobe PhotoShop, Google Apps
         </p>
       </section>
 
       <section className="experience">
         <h3 className="align-center">Experience</h3>
+        <h4>Teaching Assistant 2022-Present</h4>
+        <h5>2U/Trilogy Education, Remote</h5>
+        <p>
+          Support Full-Stack Web Development Boot Camp students during class and
+          office hours including in-class activities, homework, and projects.
+          Grade projects and homework. Support the instructor with class
+          management tasks.
+        </p>
+
         <h4>Web Developer 2019-Present</h4>
         <h5>
           Central Virginia Intergroup of Overeaters Anonymous, Richmond, VA

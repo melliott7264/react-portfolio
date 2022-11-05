@@ -14,11 +14,13 @@ function Projects({ projectArray }) {
             <div className="project-title">
               <h4>{project.title}</h4>
               <h5>{project.description}</h5>
-              <em>
-                <a className="github" href={project.gitHubUrl}>
-                  GitHub Repository
-                </a>
-              </em>
+              {project.gitHubUrl && (
+                <em>
+                  <a className="github" href={project.gitHubUrl}>
+                    GitHub Repository
+                  </a>
+                </em>
+              )}
             </div>
           </article>
         ))}
