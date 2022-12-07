@@ -26,12 +26,13 @@ function About() {
             Bootcamp at the University of Richmond to enhance skills as a
             fullstack developer including the successful deployment of a
             collaborative full stack MERN project creating an economics and
-            finance news discussion site. Reliable and organized with excellent
-            verbal and written communication skills. A self-starter with a track
-            record of being a team leader, solving complex problems, and doing
-            what is necessary to get the job done. A persistent and patient
-            problem solver willing to take calculated risks to develop new
-            skills. Always learning.
+            finance news discussion site. Currently developing a solo MERN
+            project to create a range log for muzzleloader shooters. Reliable
+            and organized with excellent verbal and written communication
+            skills. A self-starter with a track record of being a team leader,
+            solving complex problems, and doing what is necessary to get the job
+            done. A persistent and patient problem solver willing to take
+            calculated risks to develop new skills. Always learning.
           </p>
         </div>
       </section>

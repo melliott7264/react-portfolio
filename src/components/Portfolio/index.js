@@ -6,12 +6,12 @@ import Projects from '../Projects';
 const projectArray = [
   {
     key: 0,
-    title: 'Muzzlelaoder Range Log 1.1',
+    title: 'Muzzlelaoder Range Log 1.3',
     description:
-      'A full-stack MERN project to create a range log specfic to the needs of muzzleloader shooters. Developed solely by Mark Elliott using Mongo/Mongoose, Node.js, Express, Apollo GraphQL, React, and React-Bootstrap among other components.  This is currently an MVP and is eventually intended to be a PWA with offline storage.',
+      'A full-stack MERN project to create a range log specfic to the needs of muzzleloader shooters. Developed solely by Mark Elliott using Mongo/Mongoose, Node.js, Express, Apollo GraphQL, React, and React-Bootstrap among other components.  This is currently an PWA with caching and will soon add offline storage.',
     deployedUrl: 'https://muzzleloader-range-log.herokuapp.com/',
-    imgUrl: 'assets/images/MuzzlleloaderRangeLogthumb-1.jpg',
-    imgAlt: 'screenshot of Muzzleloader Range Log 1.0',
+    imgUrl: 'assets/images/MuzzleloaderRangeLogthumb-1.jpg',
+    imgAlt: 'screenshot of Muzzleloader Range Log 1.3',
     gitHubUrl: 'https://github.com/melliott7264/range-log',
   },
   {
