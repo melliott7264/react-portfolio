@@ -1,0 +1,21 @@
+.contact-page,
+a.contact.nav-link.active {
+  background-color: rgb(245, 215, 151);
+}
+.contact-page {
+  padding: 4em;
+}
+.outer-form-box {
+  border: 1em solid rgb(248, 191, 121);
+  border-radius: 2em;
+  background-color: rgb(243, 243, 225);
+  margin-bottom: 4em;
+}
+.form-box {
+  border-radius: 1em;
+  margin: 0.5em 1em 0.5em 0em;
+}
+
+.contact-label {
+  margin-right: 1em;
+}

@@ -85,13 +85,6 @@ header {
   background-position: center top;
 }
 
-/* Style About Section */
-
-/* Headshot styling */
-.bio-pic {
-  width: 360px;
-}
-
 /* Style Work Section */
 
 .project-title {
@@ -177,6 +170,21 @@ textarea {
   .github {
     font-size: 1.25rem;
   }
+
+  .about-page,
+  .contact-page {
+    padding: 0em;
+  }
+
+  .contact-name,
+  .contact-email {
+    display: flex;
+  }
+
+  .contact-name input,
+  .contact-email input {
+    flex-grow: 1;
+  }
 }
 
 /* Styling for screens over 800px - limited by header graphic*/
@@ -210,5 +218,15 @@ textarea {
   }
   .github {
     font-size: 1.5rem;
+  }
+
+  .contact-name,
+  .contact-email {
+    display: flex;
+  }
+
+  .contact-name input,
+  .contact-email input {
+    flex-grow: 1;
   }
 }

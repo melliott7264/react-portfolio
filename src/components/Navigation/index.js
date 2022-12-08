@@ -15,7 +15,7 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#about"
               onClick={() => handlePageChange('About')}
               className={
-                currentPage === 'About' ? 'nav-link active' : 'nav-link'
+                currentPage === 'About' ? 'about nav-link active' : 'nav-link'
               }
             >
               About
@@ -26,7 +26,9 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
               className={
-                currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Portfolio'
+                  ? 'portfolio nav-link active'
+                  : 'nav-link'
               }
             >
               Portfolio
@@ -37,7 +39,9 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#contact"
               onClick={() => handlePageChange('Contact')}
               className={
-                currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Contact'
+                  ? 'contact nav-link active'
+                  : 'nav-link'
               }
             >
               Contact
@@ -48,7 +52,7 @@ function Navigation({ currentPage, handlePageChange }) {
               href="#resume"
               onClick={() => handlePageChange('Resume')}
               className={
-                currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+                currentPage === 'Resume' ? 'resume nav-link active' : 'nav-link'
               }
             >
               Resume

@@ -1,0 +1,24 @@
+/* Headshot styling */
+.about-page,
+a.about.nav-link.active {
+  background-color: rgb(141, 242, 242);
+}
+
+.about-page {
+  padding: 4em;
+}
+.outer-box {
+  border: 1em solid rgb(248, 191, 121);
+  border-radius: 2em;
+  margin-bottom: 4em;
+  background-color: rgb(243, 243, 225);
+}
+.inner-box .about-pic {
+  float: left;
+  border-radius: 1em;
+  margin: 0.5em 1em 0.5em 0em;
+}
+
+.about-text {
+  margin: 0.5em 0em 0.5em 0em;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../Footer';
 import emailjs from '@emailjs/browser';
+import './Contact.css';
 
 // Contact form based on online lessons from Module 20 UofR Coding Boot Camp
 
@@ -70,60 +71,62 @@ function Contact() {
 
   // The JSX (HTML) for the contact form
   return (
-    <div>
-      <section>
-        <form onSubmit={handleSubmit} id="contact-form" className="p-4">
-          <div className="p-2">
-            <label className="d-block" htmlFor="name">
-              Name:
-            </label>
-            <input
-              className="d-block"
-              size="30"
-              type="text"
-              name="name"
-              value={name}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="p-2">
-            <label className="d-block" htmlFor="email">
-              Email address:
-            </label>
-            <input
-              className="d-block"
-              size="40"
-              type="email"
-              name="email"
-              value={email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="p-2">
-            <label className="d-block" htmlFor="message">
-              Message:
-            </label>
-            <textarea
-              className="d-block"
-              name="message"
-              value={message}
-              onChange={handleChange}
-              rows="5"
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
+    <div className="contact-page">
+      <section className="outer-form-box">
+        <div className="form-box">
+          <form onSubmit={handleSubmit} id="contact-form" className="p-4">
+            <div className="contact-name p-2">
+              <label className="contact-label d-block" htmlFor="name">
+                Name:
+              </label>
+              <input
+                className="d-block"
+                // size="30"
+                type="text"
+                name="name"
+                value={name}
+                onChange={handleChange}
+              />
             </div>
-          )}
-          <button
-            className="submit-btn p-2 m-2"
-            data-testid="submit"
-            type="submit"
-          >
-            Submit
-          </button>
-        </form>
+            <div className="contact-email p-2">
+              <label className="contact-label d-block" htmlFor="email">
+                Email address:
+              </label>
+              <input
+                className="d-block"
+                // size="40"
+                type="email"
+                name="email"
+                value={email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="p-2">
+              <label className="d-block" htmlFor="message">
+                Message:
+              </label>
+              <textarea
+                className="d-block"
+                name="message"
+                value={message}
+                onChange={handleChange}
+                rows="5"
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <button
+              className="submit-btn p-2 m-2"
+              data-testid="submit"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
       </section>
       <Footer />
     </div>
