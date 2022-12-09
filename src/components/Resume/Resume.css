@@ -1,20 +1,17 @@
-.contact-page,
-a.contact.nav-link.active {
+.resume-page,
+a.resume.nav-link.active {
   background-color: rgb(70, 91, 149);
 }
-.contact-page {
+.resume-page {
   padding: 0em;
 }
-.outer-form-box {
+.outer-resume-box {
   border: 1em solid rgb(248, 191, 121);
   border-radius: 2em;
   background-color: rgb(243, 243, 225);
 }
-.form-box {
+.resume-box {
   border-radius: 1em;
+  padding: 1em;
   margin: 0.5em 1em 0.5em 0em;
-}
-
-.contact-label {
-  margin-right: 1em;
 }

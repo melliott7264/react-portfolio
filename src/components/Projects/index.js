@@ -1,10 +1,11 @@
 import React from 'react';
 import Footer from '../Footer';
+import './Projects.css';
 
 // JSX just to write out each project in the projectArray
 function Projects({ projectArray }) {
   return (
-    <div>
+    <div className="projects-page">
       <section>
         {projectArray.map((project) => (
           <article key={project.key} className="project">

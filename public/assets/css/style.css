@@ -4,9 +4,10 @@
 
 :root {
   --default-fontcolor: black;
-  --default-bgcolor: #ffffffde;
+  --default-bgcolor: #465b95;
   --primary-bgcolor: #4444f7;
   --primary-fontcolor: #ffffff;
+  --secondary-fontcolor: #f6db28;
   --primary-title-bgcolor: #f6db28;
   --work-bgcolor: #d3d2cbb1;
 }
@@ -64,7 +65,14 @@ header h1,
 }
 
 .nav-item a:hover {
-  color: var(--primary-title-bgcolor);
+  color: var(--secondary-fontcolor);
+}
+
+a.about.nav-link.active,
+a.portfolio.nav-link.active,
+a.contact.nav-link.active,
+a.resume.nav-link.active {
+  color: var(--primary-fontcolor);
 }
 
 footer {
@@ -171,9 +179,15 @@ textarea {
     font-size: 1.25rem;
   }
 
-  .about-page,
-  .contact-page {
-    padding: 0em;
+  div.about-page,
+  div.contact-page,
+  div.resume-page {
+    padding: 2em;
+  }
+
+  .outer-box,
+  .outer-form-box {
+    margin-bottom: 2em;
   }
 
   .contact-name,
@@ -218,6 +232,17 @@ textarea {
   }
   .github {
     font-size: 1.5rem;
+  }
+
+  div.about-page,
+  div.contact-page,
+  div.resume-page {
+    padding: 4em;
+  }
+
+  .outer-box,
+  .outer-form-box {
+    margin-bottom: 4em;
   }
 
   .contact-name,
