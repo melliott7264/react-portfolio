@@ -186,7 +186,8 @@ textarea {
   }
 
   .outer-box,
-  .outer-form-box {
+  .outer-form-box,
+  .outer-resume-box {
     margin-bottom: 2em;
   }
 
@@ -241,7 +242,8 @@ textarea {
   }
 
   .outer-box,
-  .outer-form-box {
+  .outer-form-box,
+  .outer-resume-box {
     margin-bottom: 4em;
   }
 
