@@ -4,9 +4,10 @@
 
 :root {
   --default-fontcolor: black;
-  --default-bgcolor: #ffffffde;
+  --default-bgcolor: #465b95;
   --primary-bgcolor: #4444f7;
   --primary-fontcolor: #ffffff;
+  --secondary-fontcolor: #f6db28;
   --primary-title-bgcolor: #f6db28;
   --work-bgcolor: #d3d2cbb1;
 }
@@ -64,7 +65,14 @@ header h1,
 }
 
 .nav-item a:hover {
-  color: var(--primary-title-bgcolor);
+  color: var(--secondary-fontcolor);
+}
+
+a.about.nav-link.active,
+a.portfolio.nav-link.active,
+a.contact.nav-link.active,
+a.resume.nav-link.active {
+  color: var(--primary-fontcolor);
 }
 
 footer {
@@ -83,13 +91,6 @@ header {
   width: 100%;
   background-image: url(../../assets/images/Header_Background-1.jpg);
   background-position: center top;
-}
-
-/* Style About Section */
-
-/* Headshot styling */
-.bio-pic {
-  width: 360px;
 }
 
 /* Style Work Section */
@@ -177,6 +178,28 @@ textarea {
   .github {
     font-size: 1.25rem;
   }
+
+  div.about-page,
+  div.contact-page,
+  div.resume-page {
+    padding: 2em;
+  }
+
+  .outer-box,
+  .outer-form-box,
+  .outer-resume-box {
+    margin-bottom: 2em;
+  }
+
+  .contact-name,
+  .contact-email {
+    display: flex;
+  }
+
+  .contact-name input,
+  .contact-email input {
+    flex-grow: 1;
+  }
 }
 
 /* Styling for screens over 800px - limited by header graphic*/
@@ -210,5 +233,27 @@ textarea {
   }
   .github {
     font-size: 1.5rem;
+  }
+
+  div.about-page,
+  div.contact-page,
+  div.resume-page {
+    padding: 4em;
+  }
+
+  .outer-box,
+  .outer-form-box,
+  .outer-resume-box {
+    margin-bottom: 4em;
+  }
+
+  .contact-name,
+  .contact-email {
+    display: flex;
+  }
+
+  .contact-name input,
+  .contact-email input {
+    flex-grow: 1;
   }
 }
