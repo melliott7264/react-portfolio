@@ -30,7 +30,7 @@ function Resume() {
           <section className="experience">
             <h3 className="align-center">Experience</h3>
             <h4>Teaching Assistant 2022-Present</h4>
-            <h5>2U/Trilogy Education, Remote</h5>
+            <h5>edX, Remote</h5>
             <p>
               Support Full-Stack Web Development Boot Camp students during class
               and office hours including in-class activities, homework, and
