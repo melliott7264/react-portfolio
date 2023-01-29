@@ -28,7 +28,7 @@ const projectArray = [
     key: 2,
     title: "WordPress Demonstration",
     description:
-      "This single page WordPress website was the result of an exercise to convert the Photoshop mockup shown above into a fully responsive WordPress front page.  Click on the image to see the WordPress site.  It was created using a child theme of the Understrap parent theme with a fully custom front page.",
+      "This single page WordPress website was the result of an exercise to convert the Photoshop mockup shown above into a fully responsive WordPress front page.  Click on the image to see the WordPress site.  It was created using a child theme of the Understrap parent theme with a fully custom front page using BootStrap for the navbar and including JavaScrip to create the What We Do Section.",
     deployedUrl: "https://demo.markelliottva.com/",
     imgUrl: "assets/images/pulse-tester.jpg",
     imgAlt: "Photoshop mockup of WordPress demonstration site",
