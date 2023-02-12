@@ -32,6 +32,7 @@ const projectArray = [
     deployedUrl: "https://demo.markelliottva.com/",
     imgUrl: "assets/images/pulse-tester.jpg",
     imgAlt: "Photoshop mockup of WordPress demonstration site",
+    gitHubUrl: "https://github.com/melliott7264/pulse_tester2",
   },
   {
     key: 3,
