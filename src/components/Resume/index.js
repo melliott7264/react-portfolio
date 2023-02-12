@@ -32,10 +32,7 @@ function Resume() {
             <h4>Teaching Assistant 2022-Present</h4>
             <h5>edX, Remote</h5>
             <p>
-              Support Full-Stack Web Development Boot Camp students during class
-              and office hours including in-class activities, homework, and
-              projects. Grade projects and homework. Support the instructor with
-              class management tasks.
+            Support Full-Stack Web Development Boot Camp students during class and office hours.   Guide and encourage students’ in-class activities as well as their offline work, challenges, and projects.   Grade projects and support the instructor with class management tasks.
             </p>
 
             <h4>Web Developer 2019-Present</h4>
@@ -80,7 +77,7 @@ function Resume() {
             </p>
             <ul>
               <li>
-                Crafts work and and photography recognized for excellence
+                Crafts work and photography repeatedly recognized for excellence
               </li>
               <li>
                 Designed, created, and maintained several websites over the
