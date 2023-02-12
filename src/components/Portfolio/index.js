@@ -41,6 +41,7 @@ const projectArray = [
     deployedUrl: "https://markelliottva.com/",
     imgUrl: "assets/images/MarkElliottVAScreenShot-1.jpg",
     imgAlt: "screenshot of MarkElliottVa.com",
+    gitHubUrl: "https://github.com/melliott7264/markelliottva_theme",
   },
   {
     key: 4,

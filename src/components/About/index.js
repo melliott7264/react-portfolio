@@ -17,24 +17,7 @@ function About() {
                 alt="headshot for Mark Elliott"
               />
               <p className="about-text">
-                Mark Elliott is a full stack web developer with extensive
-                experience in Information Technology working with clients at all
-                levels of the organization to ascertain client needs and create
-                appropriate technical solutions. Functioned as a webmaster in
-                support of various personal and self-employment business
-                endeavors for over 10 years mostly on a WordPress platform using
-                HTML, CSS, Javascript, PHP, and MySQL to create and customize
-                websites. Completed a 24 week Coding Bootcamp at the University
-                of Richmond to enhance skills as a fullstack developer including
-                the successful deployment of a collaborative full stack MERN
-                project creating an economics and finance news discussion site.
-                Currently developing a solo MERN project to create a range log
-                for muzzleloader shooters. Reliable and organized with excellent
-                verbal and written communication skills. A self-starter with a
-                track record of being a team leader, solving complex problems,
-                and doing what is necessary to get the job done. A persistent
-                and patient problem solver willing to take calculated risks to
-                develop new skills. Always learning.
+              Full Stack Web Developer with extensive experience in Information Technology working with clients at all levels of the organization to ascertain client needs and create appropriate technical solutions. Functioned as a web developer in support of various personal and self-employment business endeavors for over 10 years mostly on a WordPress platform using HTML, CSS, Javascript, PHP, and MySQL to create and customize websites. Completed a 24 week Coding Bootcamp at the University of Richmond to enhance skills as a fullstack developer including the successful deployment of several collaborative coding projects.   Continuing to pursue personal web development projects.  Reliable and organized with excellent verbal and written communication skills. A self-starter with a track record of being a team leader, solving complex problems,  and doing what is necessary to get the job done. A persistent and patient problem solver. Always learning.
               </p>
             </div>
           </div>
