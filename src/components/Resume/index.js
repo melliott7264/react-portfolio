@@ -80,16 +80,7 @@ function Resume() {
             </p>
             <ul>
               <li>
-                Received several ribbons for distinguished work on the American
-                longrifle at Dixon's Gunmakers Fair, including a Best of Class
-                ribbon in 2016
-              </li>
-              <li>
-                Leather and horn work was recognized in Early American Life
-                magazine
-              </li>
-              <li>
-                Photography has been published in American Tradition magazine
+                Crafts work and and photography recognized for excellence
               </li>
               <li>
                 Designed, created, and maintained several websites over the
