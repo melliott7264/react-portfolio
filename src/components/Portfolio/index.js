@@ -38,7 +38,7 @@ const projectArray = [
     key: 3,
     title: "Mark Elliott's Personal Website",
     description:
-      "This is Mark Elliott's personal website, transitioned from his last buisness site, to share his traditional arts and crafts work.  This WordPress website was recently redesigned using a custom child theme based on the Understrap parent theme.  It is fully responsive and has a carousel on the landing page written from sctach by Mark Elliott using jQuery.",
+      "This is Mark Elliott's personal website, transitioned from his last buisness site, to share his traditional arts and crafts work.  This WordPress website was recently redesigned using a custom child theme based on the Understrap parent theme.  It is fully responsive and has a Bootstrap 5 carousel on the completely custom front-page.",
     deployedUrl: "https://markelliottva.com/",
     imgUrl: "assets/images/MarkElliottVAScreenShot-1.jpg",
     imgAlt: "screenshot of MarkElliottVa.com",
